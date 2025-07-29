@@ -1,0 +1,123 @@
+body {
+  background-image: url("./assets/img/Descargar imagen desenfocada.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 100vh;
+  margin: 0;
+  background-attachment: fixed;
+
+
+}
+
+.navbar {
+  background-color: #8B0000
+}
+
+hr {
+  border: none;
+  height: 3px;
+  background: linear-gradient(to right,
+      transparent,
+      #ff0000,
+      #e60000,
+      #ff0000,
+      transparent);
+  width: 80%;
+  margin: 3rem auto;
+  position: relative;
+  box-shadow: 0 0 10px #ff0000;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #00000055,
+    1px -1px 0 #00000055,
+    -1px 1px 0 #00000055,
+    1px 1px 0 #00000055,
+    0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.btn-primary {
+  background-color: #f57c00;
+  /* Naranja Naruto */
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #ff9800;
+  /* Naranja más claro */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3px);
+}
+
+.btn-primary:active {
+  transform: scale(0.97);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  color: #d84315;
+  font-weight: bold;
+}
+
+.card {
+  background-color: rgba(244, 226, 181, 0.95);
+
+  border: 2px solid #e28500;
+
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  color: #1e1e1e;
+
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 20px 0;
+  gap: 1rem;
+  scroll-behavior: smooth;
+}
+
+.scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: #8c7533;
+
+  border-radius: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #ffcc33;
+  border-radius: 10px;
+  
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #fff200;
+
+}
+
+.scroll-container .card {
+  flex: 0 0 auto;
+  width: 18rem;
+  
+}
+.scroll-container .card img {
+  height: 250px; /* Altura fija para todas las imágenes */
+  width: 100%;   /* Ancho completo del contenedor */
+  object-fit: cover; /* Recorta la imagen manteniendo proporciones */
+  object-position: center; /* Centra la imagen al recortarla */
+}
