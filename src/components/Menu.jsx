@@ -46,7 +46,7 @@ export const Menu = () => {
                                             <button className="btn btn-primary"
                                             >Detalles</button>
                                         </Link>
-                                        <button onClick={()=>dispatch({type:'set_favs', payload:n.name})} type="button" className="btn btn-info mx-2" ><i className="bi bi-box2-heart"></i></button>
+                                        <button onClick={()=>dispatch({type:'set_favs', payload:n.name})} type="button" className="btn btn-sasuke btn-info mx-2" ><i className="bi bi-box2-heart"></i></button>
                                     </div>
                                 </div>
                             ))}
@@ -68,7 +68,7 @@ export const Menu = () => {
                                         <Link to={`/DetallesBestias/${b.id}`}>
                                             <button className="btn btn-primary">Detalles</button>
                                         </Link>
-                                        <button onClick={()=>dispatch({type:'set_favs', payload:b.name})} type="button" className="btn btn-info mx-2" ><i className="bi bi-box2-heart"></i></button>
+                                        <button onClick={()=>dispatch({type:'set_favs', payload:b.name})} type="button" className="btn btn-sasuke btn-info mx-2" ><i className="bi bi-box2-heart"></i></button>
                                     </div>
                                 </div>
                             ))}
@@ -91,7 +91,7 @@ export const Menu = () => {
                                         <Link to={`/DetallesAkatsuki/${a.id}`}>
                                             <button className="btn btn-primary">Detalles</button>
                                         </Link>
-                                        <button onClick={()=>dispatch({type:'set_favs', payload:a.name})} type="button" className="btn btn-info mx-2" ><i className="bi bi-box2-heart"></i></button>
+                                        <button onClick={()=>dispatch({type:'set_favs', payload:a.name})} type="button" className="btn btn-sasuke btn-info mx-2" ><i className="bi bi-box2-heart"></i></button>
                                     </div>
                                 </div>
                             ))}

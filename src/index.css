@@ -121,3 +121,7 @@ h1 {
   object-fit: cover; /* Recorta la imagen manteniendo proporciones */
   object-position: center; /* Centra la imagen al recortarla */
 }
+
+.btn-sasuke {
+  background-color: #1D6F9F;
+}
